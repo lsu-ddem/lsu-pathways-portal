@@ -409,7 +409,7 @@ a[data-fancybox] img {
 
 .hero-lead {
   max-width: 768px;
-  font-size: 1.35rem;
+  font-size: 1rem;
 }
 
 .hero-overlay .hero-title,
@@ -1237,6 +1237,9 @@ nav#navbar-main li {
   color: #2b2b2b;
 }
 
+@media screen and (min-width: 474px) {
+  font-size: 1vw;
+}
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:hover {
   color: #2b2b2b;
