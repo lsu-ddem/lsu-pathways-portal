@@ -76,6 +76,9 @@ dl {
   margin-bottom: 1rem;
 }
 
+li {
+  margin: 0.7rem;
+}
 /* Navigation bar text */
 .navbar-default {
   font-family: "Lato", sans-serif;
