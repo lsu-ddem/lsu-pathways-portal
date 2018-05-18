@@ -894,6 +894,7 @@ article .article-metadata {
   font-weight: 700;
   line-height: 1.6;
   text-transform: uppercase;
+  color: #000;
 }
 .card h4 a {
   color: #000;
@@ -1582,4 +1583,3 @@ body.dark {
   background: rgb(40, 42, 54);
   color: rgb(248, 248, 242);
 }
-
