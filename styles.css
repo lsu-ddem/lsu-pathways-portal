@@ -1254,7 +1254,11 @@ nav#navbar-main li {
   color: #2b2b2b;
   background-color: transparent;
 }
-
+@media screen and (min-width: 1200px) {
+  .navbar-fixed-top {
+    z-index: 0 !important;
+  }
+}
 @media screen and (max-width: 1200px) {
   .navbar {
     min-height: 50px !important;
