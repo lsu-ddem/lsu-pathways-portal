@@ -1254,6 +1254,8 @@ nav#navbar-main li {
   color: #2b2b2b;
   background-color: transparent;
 }
+
+/* remove weird space under navbar when large screen */
 @media screen and (min-width: 1200px) {
   .navbar-fixed-top {
     z-index: 0 !important;
