@@ -109,7 +109,7 @@ h2 {
   margin-top: 1rem;
   font-size: 1.5rem;
 }
-h3 {
+h3{
   font-weight: 700;
   margin-top: 1.5rem;
   font-size: 1.25rem;
@@ -124,14 +124,14 @@ h6 {
 
 a,
 h3.article-title a:hover {
-  color: #0095eb;
+  color: #034d9e;
   text-decoration: none;
   transition: color 0.6s ease;
 }
 
 a:hover,
 a:focus {
-  color: #0095eb;
+  color: #034d9e;
 }
 
 img,
@@ -886,7 +886,7 @@ article .article-metadata {
   min-height: 100px;
 }
 
-.card h4 {
+.card .card-title {
   font-size: 0.9rem;
   font-weight: 700;
   line-height: 1.5;
@@ -898,10 +898,14 @@ article .article-metadata {
   line-height: 1.6;
   text-transform: uppercase;
   color: #000;
-}
-.card h4 a {
-  color: #000;
-  border-bottom: solid 1px transparent;
+
+  font-family: "Lato", sans-serif;
+  /* font-weight: 400; */
+  margin-bottom: 0.5rem;
+  /* line-height: 1.25; */
+  color: #313131;
+  text-rendering: optimizeLegibility;
+  overflow-wrap: break-word; /* Ensures very long heading words do not overflow into content. */
 }
 
 .card h4 a:hover {
@@ -915,7 +919,7 @@ article .article-metadata {
 }
 
 .card .card-text p {
-  color: #999999;
+  color: #4B5555;
   font-size: 0.75rem;
 }
 
@@ -1011,7 +1015,7 @@ footer p {
 
 .site-footer,
 footer a#back_to_top i {
-  color: #899596;
+  color: #4B5555;
 }
 
 /*************************************************
