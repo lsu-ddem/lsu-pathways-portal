@@ -26,11 +26,7 @@ html {
   color: rgba(0, 0, 0, 0.8);
   line-height: 1.65;
 }
-@media screen and (min-width: 58em) {
-  html {
-    font-size: 20px;
-  }
-}
+
 
 body {
   font-family: inherit;
@@ -38,15 +34,10 @@ body {
   line-height: inherit;
   color: inherit;
   background-color: #fff;
-  margin-top: 71px; /* Offset body content by navbar height. */
-  padding-top: 0;
+  /* margin-top: 71px;  */
+  /* Offset body content by navbar height. */
+  /* padding-top: 70px; */
   counter-reset: captions;
-}
-@media screen and (max-width: 1200px) {
-  /* Match max-width of .nav-bar query. */
-  body {
-    margin-top: 51px; /* Offset body content by navbar height. */
-  }
 }
 
 .max-width-640 {
@@ -232,11 +223,7 @@ blockquote p:last-child {
 .space-below {
   margin-bottom: 50px;
 }
-@media screen and (max-width: 768px) {
-  .space-below {
-    margin-bottom: 10px;
-  }
-}
+
 
 .universal-wrapper {
   margin: 0 auto;
@@ -369,14 +356,7 @@ a[data-fancybox] img {
   background-color: rgb(247, 247, 247);
 }
 
-@media screen and (max-width: 768px) {
-  .home-section {
-    padding: 60px 0 60px 0;
-  }
-  .home-section:first-of-type {
-    padding-top: 40px;
-  }
-}
+
 
 .section-heading h1 {
   margin: 0 0 10px 0;
@@ -1248,9 +1228,7 @@ nav#navbar-main li {
   color: #2b2b2b;
 }
 
-@media screen and (min-width: 474px) {
-  font-size: 1vw;
-}
+
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:hover {
   color: #2b2b2b;
