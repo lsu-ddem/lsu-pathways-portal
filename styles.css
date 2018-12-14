@@ -892,17 +892,15 @@ article .article-metadata {
   line-height: 1.5;
   text-transform: uppercase;
 }
+/* a hack so i don't have to use h4 which breaks accessibility */
 .card .long-text {
   font-size: 0.8rem;
   font-weight: 700;
   line-height: 1.6;
   text-transform: uppercase;
   color: #000;
-
   font-family: "Lato", sans-serif;
-  /* font-weight: 400; */
   margin-bottom: 0.5rem;
-  /* line-height: 1.25; */
   color: #313131;
   text-rendering: optimizeLegibility;
   overflow-wrap: break-word; /* Ensures very long heading words do not overflow into content. */
