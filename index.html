@@ -182,15 +182,15 @@
                 <label for="teacher">Teacher:</label>
                 <input type="text" class="form-control" id="teacher" name="teacher">
               </div>
-              <div class="form-group">
-                <label for="sel2">Interested in:</label>
-                <select multiple class="form-control" name="pathway">
-                  <option value="ddem">DDEM</option>
-                  <option value="engineering">Engineering</option>
-                  <option value="computation">Computation</option>
-                  <option value="biology">Biology</option>
-                </select>
-              </div>
+              <form>
+                <label for="interested">Interested in:</label>
+
+                <label for="" class="checkbox-inline"><input type="checkbox" value="ddem">DDEM</label>
+                <label for="" class="checkbox-inline"><input type="checkbox" value="engineering">Engineering</label>
+                <label for="" class="checkbox-inline"><input type="checkbox" value="computation">Computation</label>
+                <label for="" class="checkbox-inline"><input type="checkbox" value="biology">Biology</label>
+
+              </form>
               <button type="submit" class="btn btn-default">Submit</button>
             </form>
           </div>
