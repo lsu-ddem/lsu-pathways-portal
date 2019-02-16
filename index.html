@@ -150,15 +150,46 @@
             </p>
           </div>
           <div class="col-xs-12 col-md-8" itemprop="description">
+            <!--
+              • Name
+• phone number
+• email
+• school
+• District
+• Title - teacher or administrator
+• Interested in (multiselect box with full titles of pathways)
+[ ] DDEM
+[ ] Engineering
+[ ] Computation
+[ ] Bio
+• Notes for the Pathway Coordinators. Questions? (Not sure what this should be called, but a place for them to ask us for specific info or bring up something)
+            -->
             Learn more about the summer institute:
             <form name="contact" method="POST" data-netlify="true">
+              <div class="form-group">
+                <label for="phonenumber">Phone number:</label>
+                <input type="tel" class="form-control" id="phone" name="phone">
+              </div>
               <div class="form-group">
                 <label for="email">Email address:</label>
                 <input type="email" class="form-control" id="email" name="email">
               </div>
               <div class="form-group">
-                <label for="pwd">Password:</label>
-                <input type="password" class="form-control" id="pwd" name="password">
+                <label for="district">District:</label>
+                <input type="text" class="form-control" id="district" name="district">
+              </div>
+              <div class="form-group">
+                <label for="teacher">Teacher:</label>
+                <input type="text" class="form-control" id="teacher" name="teacher">
+              </div>
+              <div class="form-group">
+                <label for="sel2">Interested in:</label>
+                <select multiple class="form-control" id="sel2">
+                  <option>DDEM</option>
+                  <option>Engineering</option>
+                  <option>Computation</option>
+                  <option>Biology</option>
+                </select>
               </div>
               <button type="submit" class="btn btn-default">Submit</button>
             </form>
