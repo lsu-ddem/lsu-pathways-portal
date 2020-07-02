@@ -480,7 +480,6 @@ a[data-fancybox] img {
 
 /* 
 #profile .portrait {
-<<<<<<< HEAD
     background-image: url("../img/portrait.jpg");
     width: 200px;
     height: 200px;
@@ -488,15 +487,6 @@ a[data-fancybox] img {
     border-radius: 50%;
     background-size: cover;
 }
-=======
-  background-image: url("../img/portrait.jpg");
-  width: 200px;
-  height: 200px;
-  margin: 0 auto;
-  border-radius: 50%;
-  background-size: cover;
-} */
->>>>>>> master
 
 #profile .portrait-title h2 {
     font-size: 1.75em;
@@ -1617,7 +1607,6 @@ body.dark {
 .dark select {
     background: rgb(40, 42, 54);
     color: rgb(248, 248, 242);
-<<<<<<< HEAD
 }
 
 
@@ -1683,7 +1672,7 @@ Collapsible Group
     position: absolute;
     top: 0;
     left: 0;
-}
+} 
 
 #slide-1 {
     z-index: 1;
@@ -1713,6 +1702,4 @@ Collapsible Group
     color: #fff;
     background: #000 url("https://i.pinimg.com/originals/05/9a/59/059a598d94a35f4488de78b59500de71.jpg") top center no-repeat;
     opacity: 0.2;
-=======
->>>>>>> master
 }
