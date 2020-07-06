@@ -23,7 +23,7 @@
     padding-top: 40px;
   }
 
-  .nav-details {
+  #nav-details {
     display: none;
   }
 }
@@ -44,9 +44,9 @@
   }
 }
 
-@media screen and (min-width: 474px) {
+/* @media screen and (min-width: 474px) {
   font-size: 1vw;
-}
+} */
 
 @media screen and (max-width: 474px) {
   /* font-size: 1vw; */
