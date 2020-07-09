@@ -5,28 +5,12 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Academic</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 08 Jul 2020 15:29:55 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Academic</title>
       <link>/</link>
     </image>
-    
-    <item>
-      <title>Summer Camp</title>
-      <link>/project/summer-camp/</link>
-      <pubDate>Wed, 08 Jul 2020 15:29:55 -0500</pubDate>
-      <guid>/project/summer-camp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>My Project Name</title>
-      <link>/project/my-project-name/</link>
-      <pubDate>Wed, 08 Jul 2020 15:24:18 -0500</pubDate>
-      <guid>/project/my-project-name/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>
